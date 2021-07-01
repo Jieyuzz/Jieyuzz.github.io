@@ -1,0 +1,352 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+  margin: 0;
+  padding: 0;
+}
+
+
+header{
+  background-color: white;
+  padding-top: 1em;
+  margin-bottom: 1em;
+}
+
+#getHelpHeader{
+  border-bottom: 10px solid #faee8c;
+}
+
+body{
+    background-color: #c7f2e1;
+}
+
+#resourcesBody{
+  background-color: white;
+}
+
+main {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+/* style fact generator*/
+#factGenerator {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+  width: 20em;
+  height: 214px;
+  text-align: center;
+  padding: 1em;
+  background-color: white;  
+  border-radius: 6%;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f6bf99;
+  border-radius: 10%;
+}
+
+#buttonDescription {
+  border-bottom: 5px solid #f6bf99;
+}
+
+
+/* STYLE TEXT */
+
+h1 {
+  font-size: 4em;
+  color: #454545;
+}
+
+h2 {
+  font-family: "Candara", sans-serif;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  background-color: white;
+  text-align: center;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  color: #454545;
+  border-bottom: 5px solid #f6bf99;
+}
+
+h3 {
+  font-family: "Candara", sans-serif;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5em;
+  color: #188358;
+  width: 18em;
+  border-bottom: 5px solid #FAEE8C;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #454545;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  color: #454545;
+}
+
+li {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #454545;
+}
+
+#homeTitle {
+  font-size: 5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#banner {
+  text-align: center;
+  margin-bottom: 2em;
+  font-size: 24px;
+  background-color: #FAEE8C;
+  padding: 1em;
+  font-family: "Candara", sans-serif;
+}
+
+#misconceptions{
+  margin-bottom: 3em;
+  padding-bottom: 1em;
+  background-color: white;
+  text-align: center;
+}
+
+#misconceptions p {
+  margin-left: 1.75em;
+  margin-right: 1.75em;
+}
+
+.misconcept{
+  font-style: italic;
+}
+
+.truth{
+  margin-bottom: 1.5em;
+}
+
+.info {
+  display: block;
+  width: 32%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info h2{
+  margin-top: 0;
+  width: 100%;
+}
+
+.info li{
+  margin-left: 1.75em;
+  margin-right: 1.75em;
+}
+
+#infoSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  background-color:white;
+  padding-bottom: 1.5em;
+  margin-bottom: 7em;
+}
+
+.infoSource{
+  font-size: 10px;
+  color: rgb(104, 104, 104);
+  text-align: center;
+  margin-top: 1em;
+}
+
+.infoSource a{
+  color: rgb(104, 104, 104);
+}
+
+
+#message {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 0.9em;
+  margin-bottom: 1em;
+}
+
+#hotline {
+  display: block;
+  width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7em;
+  text-align: center;
+  padding: 1em;
+  background-color: white;
+  border-top: 5px solid #f6bf99;
+}
+
+#hotline h1 {
+  margin-bottom: 0.25em;
+}
+
+
+/* STYLE IMAGES */
+.resourceWebsite{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+#whoImage{
+  width:16em;
+}
+
+#lifelineImage{
+  width: 10em;
+}
+
+#textLineImage{
+  width: 12em;
+}
+
+/* STYLE NAV BAR */
+nav ul {
+  text-align: center;
+  list-style-type: none;
+  background-color: #f6bf99;
+  overflow: hidden;
+  padding: 1em;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a{
+  font-family: "Candara", sans-serif;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 2em;
+}
+
+nav li a:hover {
+  background-color:#f3af7f;
+}
+
+/* ADD MORE! */
+@media screen and (max-width: 780px) {
+  #infoSection{
+    flex-direction: column;
+    background-color: transparent;
+  }
+
+  .info{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  #message {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 580px){
+  #message {
+    font-size: 2em;
+  }
+
+  #hotline {
+    width: 25em;
+  }
+
+  #hotline h1{
+    font-size: 3.5em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h3 {
+    width: 17.5em;
+    font-size: 1.3em;
+  }
+
+  .resourceWebsite a {
+    font-size: 13px;
+  }
+
+  #whoImage{
+  width:14em;
+  }
+
+  #lifelineImage{
+  width: 8em;
+  }
+
+  #textLineImage{
+  width: 10em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  nav li{
+  display: flex;
+  flex-direction: column;
+  padding: none;
+  }
+
+  nav li a {
+    padding: 2px;
+  }
+
+  #hotline {
+    width: 18em;
+  }
+
+  #hotline h1{
+    font-size: 2.5em;
+  }
+
+  h3 {
+    width: 17em;
+    font-size: 1em;
+  }
+
+  #whoImage{
+  width:13em;
+  }
+
+  #lifelineImage{
+  width: 7em;
+  }
+
+  #textLineImage{
+  width: 9em;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #factGenerator {
+    width: 16em;
+    height: 245px;
+  }
+}
